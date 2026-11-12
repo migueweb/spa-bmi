@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Calculadora de indice de masa corporal">
+        <meta name="keywords" content="Calculadora, IMC, Salud">
+        <meta name="sitedomain" content="https://migueweb.github.io/spa-bmi/">
+        <meta name="organization" content="migueweb">
+        <meta name="author" content="Miguel Amador">
+        <meta name="copyright" content="© 2025 migueweb. All rights reserved">
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+        <meta name="revisit-after" content="15days">
+
+        <link rel="stylesheet" href="./src/css/pico.css">
+        <title>BMI Calculator</title>
+    </head>
+<body>
+    <header class="container">
+        <h1>BMI calculator</h1>
+    </header>
+    <main class="container">
+        <form id="form">
+            <fieldset class="grid">
+                <label for="userWeight">
+                    Enter your weight
+                    <input type="number" id="userWeight" placeholder="in kilograms" required>
+                </label>
+
+                <label for="userHeight">
+                    Enter your height
+                    <input type="text" id="userHeight" placeholder="in centimeters" required>
+                </label>
+                <label for="calculateBtn">
+                    &nbsp;
+                    <input type="submit" value="Calculate your BMI" id="calculateBtn">
+                </label>
+            </fieldset>
+        </form>
+        <h2 id="result"></h2>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
